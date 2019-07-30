@@ -1,0 +1,14 @@
+{
+  "name": "callbag-from-amqp-queue",
+  "version": "1.0.0",
+  "description": "Utility function that provides messages from a queue on rabbitmq queues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parijat Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  }
+}
