@@ -18,7 +18,7 @@ const fromAMQPQueue = (url, socketOptions, queue) => (start, sink) => {
             })
             channel.consume(queue, (msg) => {
                 sink(1, msg.content.toString('utf-8'))
-            })
+            }, {noAck:true})
         })
     })
 }
